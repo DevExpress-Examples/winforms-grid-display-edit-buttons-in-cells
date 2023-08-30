@@ -3,17 +3,21 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2870)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Data Grid - Display edit buttons in data cells
+
+This example shows how to assign the [ButtonEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit) to a grid column and customize the following settings:
+
+* [RepositoryItemButtonEdit.TextEditStyle](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.TextEditStyle) - This property is set to `TextEditStyles.HideTextEditor` to hide the editor's text area.
+* [ShowButtonMode](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.ShowButtonMode) - This property is set to `ShowButtonMode.ShowAlways` to display edit buttons within all cells in a column.
+
+
+## Files to Review
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
-<!-- default file list end -->
-# How to show buttons in a specific column?
 
 
-<p>To show buttons in cells, you need to use the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraEditorsRepositoryRepositoryItemButtonEdittopic">RepositoryItemButtonEdit</a> as a column's <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraGridColumnsGridColumn_ColumnEdittopic">ColumnEdit</a>. To hide a text area, please set the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraEditorsRepositoryRepositoryItemButtonEdit_TextEditStyletopic">RepositoryItemButtonEdit.TextEditStyle property</a> to <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraEditorsControlsTextEditStylesEnumtopic">HideTextEditor</a>. To force the GridView to always show buttons in all cells, set the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraGridViewsBaseColumnView_ShowButtonModetopic">View.ShowButtonMode Property</a> to <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraGridViewsBaseShowButtonModeEnumEnumtopic">ShowAlways</a></p><p>This example demonstrates this approach in action.</p>
+## Documentation
 
-<br/>
-
-
+* [Edit Data. Create Cell Editors. Validate User Input](https://docs.devexpress.com/WindowsForms/753/controls-and-libraries/data-grid/data-editing-and-validation/modify-and-validate-cell-values)
+* [Editors and Simple Controls](https://docs.devexpress.com/WindowsForms/114580/controls-and-libraries/editors-and-simple-controls)
