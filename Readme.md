@@ -23,7 +23,7 @@ This example shows how to assign the [ButtonEdit](https://docs.devexpress.com/Wi
 * [Edit Data. Create Cell Editors. Validate User Input](https://docs.devexpress.com/WindowsForms/753/controls-and-libraries/data-grid/data-editing-and-validation/modify-and-validate-cell-values)
 * [Editors and Simple Controls](https://docs.devexpress.com/WindowsForms/114580/controls-and-libraries/editors-and-simple-controls)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-display-edit-buttons-in-cells&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-display-edit-buttons-in-cells&~~~was_helpful=no)
 
